@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Zodiac Website</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-6 col-xs-offset-3">
+				<form>
+					<h1>Enter your zodiac sign</h1>
+					<input id="userdata" type="text" required/>
+					<button type="button" onclick="horoscope()">Find Horoscope</button>
+				</form>
+				<br><br>
+				<div>
+					<img id="symbol" src="">
+					<h1 id="yourZodiac"></h1>
+				</div>
+				<div id="yourHoroscope">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
